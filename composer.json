@@ -1,0 +1,12 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "nesbot/carbon": "^2.0",
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
