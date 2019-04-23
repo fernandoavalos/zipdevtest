@@ -35,9 +35,11 @@ You need to develop a system for saving prices in intervals. Each interval shoul
 Endpoint: GET /interval
 User can get all intervals
 
+
 #### Get one interval
 Endpoint: GET /interval/{id}
 User can get a specific interval
+
 
 #### Create new interval
 Endpoint: POST /interval
@@ -51,6 +53,7 @@ JSON:
 ```
 User can get a specific interval
 
+
 #### Update interval
 Endpoint: POST /interval/update/{id}
 JSON: 
@@ -63,9 +66,11 @@ JSON:
 ```
 User can edit a specific interval
 
+
 #### Delete interval
 Endpoint: POST /interval/delete/{id}
 User can delete a specific interval
+
 
 #### Purge data for a fresh start
 Endpoint: POST /interval/purge
