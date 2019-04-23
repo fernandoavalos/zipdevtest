@@ -31,6 +31,8 @@ You need to develop a system for saving prices in intervals. Each interval shoul
 
 - Host = http://fernandoavalos.000webhostapp.com
 
+zcbtest.postman_collection.json is the Postman collection for testing.
+
 #### Get intervals
 Endpoint: GET /interval
 User can get all intervals
