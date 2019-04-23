@@ -42,9 +42,11 @@ User can get a specific interval
 #### Get one interval
 Endpoint: POST /interval
 JSON: 
-///{
+```
+{
 	"date_start":"YYY-MM-DD",
 	"date_end":"YYY-MM-DD",
 	"price": (float)
-///}
+}
+```
 User can get a specific interval
