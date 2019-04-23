@@ -39,7 +39,7 @@ User can get all intervals
 Endpoint: GET /interval/{id}
 User can get a specific interval
 
-#### Get one interval
+#### Create new interval
 Endpoint: POST /interval
 JSON: 
 ```
@@ -50,3 +50,23 @@ JSON:
 }
 ```
 User can get a specific interval
+
+#### Update interval
+Endpoint: POST /interval/update/{id}
+JSON: 
+```
+{
+	"date_start":"YYY-MM-DD",
+	"date_end":"YYY-MM-DD",
+	"price": (float)
+}
+```
+User can edit a specific interval
+
+#### Update interval
+Endpoint: POST /interval/delete/{id}
+User can delete a specific interval
+
+#### Purge data for a fresh start
+Endpoint: POST /interval/purge
+User can clear all data to start fresh
