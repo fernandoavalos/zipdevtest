@@ -63,7 +63,7 @@ JSON:
 ```
 User can edit a specific interval
 
-#### Update interval
+#### Delete interval
 Endpoint: POST /interval/delete/{id}
 User can delete a specific interval
 
